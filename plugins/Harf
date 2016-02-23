@@ -44,6 +44,12 @@ end
 if msg.text == "bye" then
 	return "Bbye !"
 end
+if msg.text == "Pouriya" then
+	return "Nist! "
+end
+if msg.text == "poria" then
+	return "Nist! "
+end
 end
 
 return {
@@ -58,6 +64,8 @@ return {
 		"^[tT]ele[sS]ick$",
 		"^[Ss]alam$"
 		"^[Mm]ax$,
+		"^[Pp]ouriya$
+		"^[Pp]oria$
 		}, 
 	run = run,
     --privileged = true,
