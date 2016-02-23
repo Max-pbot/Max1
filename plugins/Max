@@ -1,0 +1,26 @@
+local function run(msg)
+if msg.text == "hi" then
+	return "Hello bb"
+end
+if msg.text == "Max" then
+	return "{Max-Anti spam bot Of Telegram_Safe place with Max}"
+
+end
+end
+
+return {
+	description = "Chat With Robot Server", 
+	usage = "chat with robot",
+	patterns = {
+		"^[Hh]i$",
+		"^[Hh]ello$",
+		"^[Bb]ot$",
+		"^[Bb]ye$",
+		"^?$",
+		"^[tT]ele[sS]ick$",
+		"^[Ss]alam$",
+		}, 
+	run = run,
+    --privileged = true,
+	pre_process = pre_process
+}
