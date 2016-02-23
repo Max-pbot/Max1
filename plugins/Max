@@ -1,9 +1,9 @@
 local function run(msg)
-if msg.text == "hi" then
-	return "Hello bb"
+if msg.text == "max" then
+	return "{Max-Anti spam bot Of Telegram_Safe place with Max}"
 end
 if msg.text == "Max" then
-	return "{Max-Anti spam bot Of Telegram_Safe place with Max}"
+	return "{Max-Anti spam bot Of Telegram_Safe place with Max}____ID Max: @Max_antispam"
 
 end
 end
@@ -12,13 +12,7 @@ return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
 	patterns = {
-		"^[Hh]i$",
-		"^[Hh]ello$",
-		"^[Bb]ot$",
-		"^[Bb]ye$",
-		"^?$",
-		"^[tT]ele[sS]ick$",
-		"^[Ss]alam$",
+		"^[Mm]ax$,
 		}, 
 	run = run,
     --privileged = true,
